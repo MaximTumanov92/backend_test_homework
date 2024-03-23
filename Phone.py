@@ -20,7 +20,3 @@ class Phone:
 # Дочерний класс, унаследованный от класса Phone.
 class MobilePhone(Phone):
     pass 
-
-    print(asd)
-
-    
