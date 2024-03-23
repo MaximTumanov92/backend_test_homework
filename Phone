@@ -1,0 +1,18 @@
+# Вот класс.
+class Phone:
+
+    line_type = 'проводной'
+
+    def __init__(self, dial_type_value):
+        self.dial_type = dial_type_value
+
+    def ring(self):
+        print('Дзззззыыыыыыыынь!')
+
+    def call(self, phone_number):
+        print(f'Звоню по номеру {phone_number}! Тип связи - {self.line_type}.')
+
+
+# А вот и экземпляры класса.
+rotary_phone = Phone(dial_type_value='дисковый')
+keypad_phone = Phone(dial_type_value='кнопочный') 
